@@ -1,0 +1,662 @@
+
+<!DOCTYPE html>
+<html lang="zh" prefix="og: https://ogp.me/ns#">
+ <head>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-170791956-1');
+  </script>
+      <meta charset="utf-8">
+  <title id="title">只因分 - 绿树计算器 Pro</title>
+  <meta property="og:title" content="只因分 - 绿树计算器 Pro" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://lvshu-is-666.github.io/calc/int.html" />
+  <meta property="og:image" content="https://mathdf.com/logo/og_image_cn.png" />
+  <meta property="og:image:width" content="500" />
+  <meta property="og:image:height" content="230" />
+  <meta property="og:description" content="分步积分计算器。 输入和解释方便！" />
+  <meta name="Description" content="分步积分计算器。 输入和解释方便！" />
+  <meta name="keywords" content="求解积分，积分解，积分计算器，分步积分解，详细积分解，积分，不定，定，计算器，计算，lvshu，绿树计算器" />
+  <meta name="robots" content="index, follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="csrf-token" content="2cf1673b42" />
+  <meta name="theme-color" content="#3c3c3c" />
+  <link rel="canonical" href="https://lvshu-is-666.github.io/calc/int.html" />
+  <link type="image/x-icon" rel="shortcut icon" href="https://mathdf.com/favicon.ico" />
+  <link type="image/png" sizes="16x16" rel="icon" href="https://mathdf.com/favicon-16x16.png" />
+  <link type="image/png" sizes="32x32" rel="icon" href="https://mathdf.com/favicon-32x32.png" />
+  <link type="image/png" sizes="96x96" rel="icon" href="https://mathdf.com/favicon-96x96.png" />
+  <link type="image/png" sizes="120x120" rel="icon" href="https://mathdf.com/favicon-120x120.png" />
+    <link rel="stylesheet" type="text/css" href="https://mathdf.com/sheets.css?1667260048" />
+    <link rel="stylesheet" type="text/css" href="https://mathdf.com/int/sheets-int.css?1666579470" />
+  <link rel="stylesheet" type="text/css" href="https://mathdf.com/normalize.css" />
+      <script>var adBlockEnabled=!1;const isMobile=!1;</script>
+ </head>
+ <body class="site-body tw scroll-theme loading">
+  <header id="header">
+    <div class="head-content">
+		<nav class="head-links">
+ <div>
+  <ul class="topmenu non-select letter-space-1">
+      <li class="menu-move trans-menu-05"><div id="calcs"><div id="icon-calcs"></div><span id=tocalc>计算器</span><div class="fa"></div></div>
+      <ul class="submenu trans-menu-05">
+        <li><a id="toint"  href="https://lvshu-is-666.github.io/calc/int.html">只因分</a></li>
+        <li><a id="toequ"  href="https://lvshu-is-666.github.io/calc/equ.html">方程</a></li>
+        <li><a id="tolim"  href="https://lvshu-is-666.github.io/calc/lim.html">函数的只因限</a></li>
+        <li><a id="toder"  href="https://lvshu-is-666.github.io/calc/der.html">函数的导数</a></li>
+        <li><a id="todif"  href="https://lvshu-is-666.github.io/calc/dif.html">常微分方程</a></li>
+        <li><a id="tocom"  href="https://lvshu-is-666.github.io/calc/com.html">复杂数</a></li>
+        <li><a id="tocal"  href="https://lvshu-is-666.github.io/calc/calc.html">数学算式</a></li>
+        <li><a id="tomat"  href="https://lvshu-is-666.github.io/calc/mat.html">矩阵的运算</a></li>
+      </ul>
+    </li>
+  </ul>
+ </div>
+</nav>    </div>
+  </header>
+  <main class="site-content">
+  <div id="content">
+   <div id="topmost-content">
+     <div itemscope itemtype="http://schema.org/Service">
+      <h1 class="h1 letter-space-1" itemprop="serviceType"><span id="kind">只因分计算器</span></h1>
+     </div>
+     <div>
+       <div id="calc-desc" class="letter-space-1">计算器使用以下方法对函数进行积分：替换、有理函数和分数、未定义系数、因式分解、线性分数无理性、部分积分、欧拉代换、微分二项式、模积分、积分函数、幂、三角、双曲 转换和分组。为了解决定积分，应用了牛顿-莱布尼茨公式和在函数不连续点处寻找极限</div>
+     </div>
+     <div id="top-content">
+         <div id="calc-info"><span class="letter-space-1"><span id="tag-press-enter">输入表达式并按</span><span id="tag-press-button">或按钮</span></span></div>
+      <div id="calc-settings" class="letter-space-1">
+       <div class="right-container">
+        <div id="calc-settings-extra-p">
+         <div id="calc-settings-extra" class="non-select trans-b-02">选项</div>
+        </div>
+        <div id="calc-settings-name" class="non-select">设置</div>
+       </div>
+          <div id="calc-settings-content">
+           <div>
+           <div>
+            <span id="calc-param-name" class="calc-setting-text non-select">变量</span>
+            <select id="calc-param" class="calc-setting-select notranslate">
+             <option value="x">x</option>
+            </select>
+           </div>
+           <table>
+            <tr>
+             <td>
+              <span id="top-limit-name" class="calc-setting-text calc-setting-text non-select">上限</span>
+             </td>
+             <td id="sym-int-col" rowspan="2" class="non-select">
+              &#8747;
+             </td>
+             <td>
+              <div class="relative-cursor">
+               <input id="top-limit" class="set-limits outline-off notranslate" placeholder="inf" value="" autocapitalize="off"><i></i>
+              </div>
+             </td>
+            </tr>
+            <tr>
+             <td>
+              <span id="bottom-limit-name" class="calc-setting-text calc-setting-text non-select">下限</span>
+             </td>
+             <td>
+              <div class="relative-cursor">
+               <input id="bottom-limit" class="set-limits outline-off notranslate" placeholder="-inf" value="" autocapitalize="off"><i></i>
+              </div>
+             </td>
+            </tr>
+           </table>
+          </div>
+          </div>
+      </div>
+     </div>
+    </div>
+   <div class="content-offset">
+    <div class="container-line">
+     <div id="random-input"><img class="non-select" src="/logo/random.svg" width="50" height="20" alt="random" ondragstart="return false;" ondrop="return false;"></div>
+     <select id="calc-method">
+     	<option id="option-auto" value='-1' selected>智能选择</option>
+     	<option id="option-forced" value='5'>手动选择</option>
+     </select>
+	</div>
+    <div id="auto-correct" class="hidden hide">自动更正</div>
+    <div id="input-parent">
+	 <input id="input-expression" class="outline-off notranslate" type="text" placeholder="sin(x)^2/pi+e^(sqrt(x)+a)/sqrt(x)" title="输入被只因函数" value="" autocapitalize="off"><i></i>
+    </div>
+    <span>
+     <button id="solve" class="trans-1 notranslate letter-space-1" disabled data-calc="计算！">=</button>
+    </span>
+    <div class="under-menu">
+        <span id="input-clear" class="under-input color-ligth-blue non-select trans-05">清除</span>
+        <span id="input-clear-mini" class="under-input color-ligth-blue non-select trans-05">⌦</span>
+        <span class="color-ligth-whitly non-select notranslate">
+        <span class="under-input under-input-op trans-05" onclick="opInput('+')">+</span>
+        <span class="under-input under-input-op trans-05" onclick="opInput('-')">−</span>
+        <span class="under-input under-input-op trans-05" onclick="opInput('*')">×</span>
+        <span class="under-input under-input-op trans-05" onclick="opInput('/')">÷</span>
+        <span class="under-input under-input-op trans-05" onclick="opInput('^')">^</span>
+        <span class="under-input under-input-op trans-05" onclick="opInput('sqrt(')">√</span>
+        <span class="under-input under-input-op trans-05 minimize" onclick="opInput('(')">(</span>
+        <span class="under-input under-input-op trans-05 oversize" onclick="opInput(')')">)</span>
+        </span>
+    </div>
+   </div>
+   <div id="display-output-container">
+        <div class="wheel-settings">
+            <div id='int-setting' class="trans-1" title="设置">
+            </div>
+            <div id="int-setting-display" class="hide">
+                <label class="setting-container letter-space-1">
+                    <input id='expand-table-int' type="checkbox" >
+                    <span class="checkmark"></span>
+                    <span id="expand-table" class="setting-style">扩展表积分列表</span>
+                </label>
+                <label class="setting-container">
+                    <input id='show-linear-int' type="checkbox" checked>
+                    <span class="checkmark"></span>
+                    <span id="show-linear" class="setting-style">使用常量跳过步骤</span>
+                </label>
+            </div>
+        </div>
+        <div id="copy-display" class="trans-1 mcopy" data-copy="复制 LaTeX"></div>
+        <div id="display-output-outset" class="non-select">
+            <div id="display-begin-render"><span id='site-is-loading'>内容正在加载</span></div><div id='display-output-mathjax' class="scroll-theme non-select in-render notranslate"></div>
+        </div>
+    <div id="display-notice-container">
+    	<div id="display-notice" class="hidden hide">填补空白</div>
+    </div>
+   </div>
+   <div id="blackground-format" class="blackground instanthidden"></div>
+   <div id="show-format" class="instanthidden">
+        <div id="get-format">
+            <div id="tag-latex-format" class="tag-format">在 LaTeX 中的结果：</div>
+            <div>
+            	<input id="get-latex-format" class="get-text-format static-input" value="" readonly>
+            	<div id="copy-latex" class="copy-export">复制</div>
+            </div>
+            <div id="back-format-gap" class="pointer close-format-gap"></div>
+            <div id="tag-expr-format" class="tag-format">作为表达式的结果：</div>
+            <div>
+            	<input id="get-expr-format" class="get-text-format static-input" value="" readonly>
+            	<div id="copy-expr" class="copy-export">复制</div>
+			</div>
+        </div>
+        <div id="back-format" class="back-black non-select">
+            <div id="back-tag-format" class="back-tag">后退</div>
+        </div>
+   </div>
+   <div id="blackground" class="blackground instanthidden"></div>
+   <div id="show-link-on-solve" class="instanthidden">
+        <div id="get-link-on-solve">
+            <input id="get-link-on-solve-link" class="static-input" value="" readonly>
+        </div>
+        <div id="copy-show-link" class="non-select">
+            <div id="copy-tag-show-link">复制链接</div>
+        </div>
+        <div id="back-show-link" class="back-black non-select">
+            <div id="back-tag-show-link" class="back-tag">后退</div>
+        </div>
+   </div>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4652725197876113"
+crossorigin="anonymous"></script>
+<!-- ads_top -->
+<ins class="adsbygoogle ads-top"
+     style="display:block;min-height: 90px;"
+     data-ad-client="ca-pub-4652725197876113"
+     data-ad-slot="3130816093"
+     data-ad-format="horizontal"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+ <div id="input-info-container">
+  <div>
+   <div id="input-info-hide" class="input-info-opened" data-opened="&#9662;隐藏" data-closed="&#9656;显示输入功能"></div>
+  </div>
+  <div id="input-info"><p><span id="iinput-1">输入识别各种同义词像功能</span> <span class="mformula notranslate">asin</span>, <span class="mformula notranslate">arsin</span>, <span class="mformula notranslate">arcsin</span></p>
+    <p><span id="iinput-2">乘号和括号被额外放置 - 写</span><span class="mformula notranslate">2sinx</span> <span id="iinput-3">相似的</span><span class="mformula notranslate">2*sin(x)</span></p>
+	<p><span id="iinput-4">数学函数和常数列表</span>:</p>
+		<p>&#8226;<span id="iformula-1" class="mformula mcopy notranslate" data-copy="复制">ln(x)</span> — <span id="idformula-1">自然对数</span></p>
+		<p>&#8226;<span id="iformula-2" class="mformula mcopy notranslate" data-copy="复制">sin(x)</span> — <span id="idformula-2">正弦</span></p>
+		<p>&#8226;<span id="iformula-3" class="mformula mcopy notranslate" data-copy="复制">cos(x)</span> — <span id="idformula-3">余弦</span></p>
+		<p>&#8226;<span id="iformula-4" class="mformula mcopy notranslate" data-copy="复制">tan(x)</span> — <span id="idformula-4">切线</span></p>
+		<p>&#8226;<span id="iformula-5" class="mformula mcopy notranslate" data-copy="复制">cot(x)</span> — <span id="idformula-5">余切</span></p>
+		<p>&#8226;<span id="iformula-6" class="mformula mcopy notranslate" data-copy="复制">arcsin(x)</span> — <span id="idformula-6">反正弦</span></p>
+		<p>&#8226;<span id="iformula-7" class="mformula mcopy notranslate" data-copy="复制">arccos(x)</span> — <span id="idformula-7">反余弦</span></p>
+		<p>&#8226;<span id="iformula-8" class="mformula mcopy notranslate" data-copy="复制">arctan(x)</span> — <span id="idformula-8">反正切</span></p>
+		<p>&#8226;<span id="iformula-9" class="mformula mcopy notranslate" data-copy="复制">arccot(x)</span> — <span id="idformula-9">反正切</span></p>
+		<p>&#8226;<span id="iformula-10" class="mformula mcopy notranslate" data-copy="复制">sinh(x)</span> — <span id="idformula-10">双曲正弦</span></p>
+		<p>&#8226;<span id="iformula-11" class="mformula mcopy notranslate" data-copy="复制">cosh(x)</span> — <span id="idformula-11">双曲余弦</span></p>
+		<p>&#8226;<span id="iformula-12" class="mformula mcopy notranslate" data-copy="复制">tanh(x)</span> — <span id="idformula-12">双曲正切</span></p>
+		<p>&#8226;<span id="iformula-13" class="mformula mcopy notranslate" data-copy="复制">coth(x)</span> — <span id="idformula-13">双曲余切</span></p>
+		<p>&#8226;<span id="iformula-14" class="mformula mcopy notranslate" data-copy="复制">sech(x)</span> — <span id="idformula-14">双曲正割</span></p>
+		<p>&#8226;<span id="iformula-15" class="mformula mcopy notranslate" data-copy="复制">csch(x)</span> — <span id="idformula-15">双曲余割</span></p>
+		<p>&#8226;<span id="iformula-16" class="mformula mcopy notranslate" data-copy="复制">arsinh(x)</span> — <span id="idformula-16">反双曲正弦</span></p>
+		<p>&#8226;<span id="iformula-17" class="mformula mcopy notranslate" data-copy="复制">arcosh(x)</span> — <span id="idformula-17">反双曲余弦</span></p>
+		<p>&#8226;<span id="iformula-18" class="mformula mcopy notranslate" data-copy="复制">artanh(x)</span> — <span id="idformula-18">反双曲正切</span></p>
+		<p>&#8226;<span id="iformula-19" class="mformula mcopy notranslate" data-copy="复制">arcoth(x)</span> — <span id="idformula-19">反双曲余切</span></p>
+		<p>&#8226;<span id="iformula-20" class="mformula mcopy notranslate" data-copy="复制">sec(x)</span> — <span id="idformula-20">割线</span></p>
+		<p>&#8226;<span id="iformula-21" class="mformula mcopy notranslate" data-copy="复制">csc(x)</span> — <span id="idformula-21">割割</span></p>
+		<p>&#8226;<span id="iformula-22" class="mformula mcopy notranslate" data-copy="复制">arcsec(x)</span> — <span id="idformula-22">反正割</span></p>
+		<p>&#8226;<span id="iformula-23" class="mformula mcopy notranslate" data-copy="复制">arccsc(x)</span> — <span id="idformula-23">反正割</span></p>
+		<p>&#8226;<span id="iformula-24" class="mformula mcopy notranslate" data-copy="复制">arsech(x)</span> — <span id="idformula-24">反双曲正割</span></p>
+		<p>&#8226;<span id="iformula-25" class="mformula mcopy notranslate" data-copy="复制">arcsch(x)</span> — <span id="idformula-25">反双曲余割</span></p>
+		<p>&#8226;<span class="mformula mcopynotranslate" data-copy="复制">abs(x)</span> — <span id="idformula-30">模组</span></p>
+	<p>&#8226;<span class="mformula mcopy notranslate" data-copy="复制">sqrt(x)</span> — <span id="idformula-31">根</span></p>
+	<p>&#8226;<span class="mformula mcopy notranslate" data-copy="复制">exp(x)</span> — <span id="idformula-32">幂指数x</span></p>
+	<p class="notranslate">&#8226;<span class="mformula mcopy" data-copy="复制">pow(a,b)</span> — \(a^b\)</p>
+	<p class="notranslate">&#8226;<span class="mformula mcopy" data-copy="复制">sqrt7(x)</span> — \(\sqrt[7]{x}\)</p>
+	<p class="notranslate">&#8226;<span class="mformula mcopy" data-copy="复制">sqrt(n,x)</span> — \(\sqrt[n]{x}\)</p>
+	<p class="notranslate">&#8226;<span class="mformula mcopy" data-copy="复制">lg(x)</span> — \(\log_{10}\left(x\right)\)</p>
+	<p class="notranslate">&#8226;<span class="mformula mcopy" data-copy="复制">log3(x)</span> — \(\log_3\left(x\right)\)</p>
+	<p class="notranslate">&#8226;<span class="mformula mcopy" data-copy="复制">log(a,x)</span> — \(\log_a\left(x\right)\)</p>
+	<div class="mconst-table">
+ <div class="mconst-row notranslate">
+     <div class="mconst-ceil">&#8226;<span class="mformula mcopy" data-copy="复制">pi</span> — \(\pi\)</div><div class="mconst-ceil"><span class="mformula mcopy" data-copy="复制">alpha</span> — \(\alpha\)</div><div class="mconst-ceil"><span class="mformula mcopy" data-copy="复制">beta</span> — \(\beta\)</div>
+ </div>
+ <div class="mconst-row notranslate">
+     <div class="mconst-ceil">&#8226;<span class="mformula mcopy" data-copy="复制">sigma</span> — \(\sigma\)</div><div class="mconst-ceil"><span class="mformula mcopy" data-copy="复制">gamma</span> — \(\gamma\)</div><div class="mconst-ceil"><span class="mformula mcopy" data-copy="复制">nu</span> — \(\nu\)</div>
+ </div>
+ <div class="mconst-row notranslate">
+     <div class="mconst-ceil">&#8226;<span class="mformula mcopy" data-copy="复制">mu</span> — \(\mu\)</div><div class="mconst-ceil"><span class="mformula mcopy" data-copy="复制">phi</span> — \(\phi\)</div><div class="mconst-ceil"><span class="mformula mcopy" data-copy="复制">psi</span> — \(\psi\)</div>
+ </div>
+ <div class="mconst-row notranslate">
+     <div class="mconst-ceil">&#8226;<span class="mformula mcopy" data-copy="复制">tau</span> — \(\tau\)</div><div class="mconst-ceil"><span class="mformula mcopy" data-copy="复制">eta</span> — \(\eta\)</div><div class="mconst-ceil"><span class="mformula mcopy" data-copy="复制">rho</span> — \(\rho\)</div>
+ </div>
+ <div class="mconst-row notranslate">
+     <div class="mconst-ceil">&#8226;<span class="mformula mcopy" data-copy="复制">a123</span> — \(a_{123}\)</div><div class="mconst-ceil"><span class="mformula mcopy" data-copy="复制">x_n</span> — \(x_{n}\)</div><div class="mconst-ceil"><span class="mformula mcopy" data-copy="复制">mu11</span> — \(\mu_{11}\)</div>
+ </div>
+</div>  </div>
+  <div id="bookmark-container">
+  		  <div id="bookmark" class="bookmark-line letter-space-1"><span id="bookmark-label">收藏此页</span> — <span class="bformula notranslate">CTRL</span>+<span class="bformula notranslate">D</span></div>
+  	  <div id="translate-mode" class="bookmark-line letter-space-1">
+        <label class="translate-checkbox letter-space-1">
+          <input id="translate-mode-toggle" type="checkbox" class="non-select">
+          <span class="checkmark translate-checkmark"></span>
+        </label>
+      </div>
+	  </div>
+ </div>
+   <div id="math-canvas-container" class="hide">
+     <div id="allscales" class="kcanvas outline-off non-select">
+       <span id="s75" class="scale allscales-select" onclick="scaleCanvas(75);">75%</span>&nbsp;<span id="s90" class="scale" onclick="scaleCanvas(90);">90%</span>&nbsp;<span id="s100" class="scale" onclick="scaleCanvas(100);">100%</span>&nbsp;<span id="s110" class="scale" onclick="scaleCanvas(110);">110%</span>&nbsp;<span id="s125" class="scale" onclick="scaleCanvas(125);">125%</span><span class="cursor-default">&nbsp;🔍</span>
+     </div>
+     <div id="calculation-scale">
+       <div id="math-canvas"></div>
+     </div>
+   </div>
+   <div id="load-animation" class="load-container hide"><div class="load-circle-1"><div class="load-circle-2"><div class="load-circle-3"><div class="load-circle-4"><div class="load-circle-5"><div class="load-circle-6"><div class="load-circle-7"><div class="load-circle-8"></div></div></div></div></div></div></div></div></div>
+   <span id="labelbegincalc" class="process fast-hidden hide">计算中 . . .</span>
+   <span id="labelbegindesign" class="process hidden hide">画画中 . . .</span>
+   <span id="labelbegintranslate" class="process hidden hide">翻译中 . . .</span>
+   <span id="labelerrorlong" class="process hidden hide">表情太长了！</span>
+   <span id="labelerror" class="process hidden hide">内部错误</span>
+   <span id="labelerrorconnect" class="process hidden hide">连接错误</span>
+   <span id="labelupdate" class="process hidden hide">计算器正在更新</span>
+   <span id="labelupdatepage" class="process hidden hide">有必要刷新页面</span>
+   <span id="labelcopy" class="process hidden hide">链接已复制！</span>
+   <span id="labelmcopy" class="process hidden hide">复制公式</span>
+   <span id="labeltrsend" class="process hidden hide">发送的更新文本</span>
+   <div id="arrow-top" class="hide hidden non-select">
+        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 40 42">
+            <g fill="none" stroke="#770000" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10">
+                <circle class="arrow-iconcircle" cx="20" cy="20" r="18"></circle>
+                <path class="arrow-icon--arrow" d="M27.5 20L20 12.5L12.5 20M20 12.5v16"></path>
+            </g>
+        </svg>
+   </div>
+  </div>
+  <div id="under-calculation" class="content-to-footer-gap"></div>
+  <div id="plot" class="hide">
+    <div class="plot-center">
+      <div>
+       <div id='subst-consts'>
+         <div>
+           <div class='plot-const notranslate'>C =</div><input>
+         </div>
+       </div>
+       <canvas id="cnvs" class="non-select" width=650 height=650 ondragstart="return false;" ondrop="return false;"></canvas>
+       <div class="plot-bottom">
+         <div id="coord-label" class="notranslate">x=0, y=0</div>
+         <div class="plot-funcs non-select">
+           <div class="plot-func notranslate">f(x) — <span class="sub-func-color"></span></div>
+           <div class="plot-func notranslate">F(x) — <span class="int-func-color"></span></div>
+         </div>
+       </div>
+             </div>
+      <div class="plot-right-menu">
+  <div class="plot-right-menu-sub">
+    <div id="plot-graph-label">图表</div>
+    <div class="display-graphs checkbox-inputs non-select">
+      <div>
+        <input type="checkbox" id="display-graph-f" class="display-graph non-select"
+         name="graph" value="0" checked>
+        <label for="display-graph-f" class="notranslate">\(f(x)\)</label>
+      </div>
+      <div>
+        <input type="checkbox" id="display-graph-F" class="display-graph non-select"
+         name="graph" value="1" checked>
+        <label for="display-graph-F" class="notranslate">\(F(x)\)</label>
+      </div>
+    </div>
+  </div>
+  <div class="plot-right-menu-sub">
+    <div id="plot-eq" class="notranslate">\(\displaystyle\int f(x)\,\mathrm{d}\,x=F(x)\)</div>
+  </div>
+  <div class="plot-right-menu-sub">
+    <div id="plot-value-label">值</div>
+    <div class="values-graph non-select">
+     <div>
+      <div class="notranslate">\(x =\)</div><input id="plot-x-value">
+     </div>
+     <div>
+      <div class="notranslate">\(f(x) =\)</div><input id="plot-f-value" disabled>
+     </div>
+     <div>
+      <div class="notranslate">\(F(x) =\)</div><input id="plot-F-value" disabled>
+     </div>
+    </div>
+  </div>
+  <div class="plot-right-menu-sub">
+    <div id="plot-scale-label">缩放</div>
+    <div class="radio-enhance checkbox-inputs non-select">
+      <div>
+        <input type="radio" id="enhance-xy" class="non-select enhance"
+         name="enhance" value="3" checked>
+        <label for="enhance-xy" class="notranslate">X:Y</label>
+      </div>
+      <div>
+        <input type="radio" id="enhance-x" class="non-select enhance"
+         name="enhance" value="1">
+        <label for="enhance-x" class="notranslate">X</label>
+      </div>
+      <div>
+        <input type="radio" id="enhance-y" class="non-select enhance"
+         name="enhance" value="2">
+        <label for="enhance-y" class="notranslate">Y</label>
+      </div>
+    </div>
+    <div class="flex non-select">
+      <div id="clear-enhance" class="notranslate">1:1</div>
+    </div>
+  </div>
+</div>    </div>
+  </div>
+<!-- ads_bottom -->
+<ins class="adsbygoogle ads-bottom"
+	 style="display:inline-block;width:90%;"
+	 data-ad-client="ca-pub-4652725197876113"
+	 data-ad-slot="4015209275"
+	 data-ad-format="rectangle, horizontal"
+	 data-full-width-responsive="true"></ins>
+<script>
+	 (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<div class="image-loader">
+  <div class="tw"></div>
+  <div class="tb"></div>
+</div>
+  </main>
+   <footer id="footer">
+   <div>
+    <div>
+     <span id="rights">版权所有</span><div class="inline-block"><span>&nbsp;&copy;&nbsp;</span><span id="owner">Lvshu</span></div>
+    </div>
+    <div class="right-side">
+     <span class="oversize"><span id="last-modified">上一次更改</span>:&nbsp;</span><span id="last-date">2023</span>
+    </div>
+   </div>
+   <div>
+   </div>
+  </footer>
+   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.20/katex.min.js"></script>
+   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.20/contrib/auto-render.min.js"></script>
+  <script src="https://mathdf.com/sda.js"></script>
+  <script async src="https://mathdf.com/cross-scroll.js"></script>
+   <link rel="stylesheet" type="text/css" href="/keyboard.css?1663219494" />
+ <div id="keyboard-container" class="non-select hide">
+  <div>
+  	<div id="keys-selected-var" class="keys-reveal keys-reveal-var hide">
+		<div class="row simple-keys">
+			<div><div class="key-reveal key-var" data-code="y">y</div></div>
+			<div><div class="key-reveal key-var" data-code="t">t</div></div>
+			<div><div class="key-reveal key-var" data-code="u">u</div></div>
+		</div>
+	</div>
+	<div id="keys-selected-pow" class="keys-reveal keys-reveal-pow hide">
+		<div class="row simple-keys">
+			<div><div class="key-reveal key-left" data-code="³">³</div></div>
+			<div><div class="key-reveal key-left" data-code="⁴">⁴</div></div>
+			<div><div class="key-reveal key-left" data-code="⁵">⁵</div></div>
+		</div>
+	</div>
+	<div id="keys-selected-sqrt" class="keys-reveal keys-reveal-sqrt hide">
+		<div class="row simple-keys">
+			<div><div class="key-reveal key-left" data-code="sqrt3(">³√</div></div>
+			<div><div class="key-reveal key-left" data-code="sqrt4(">⁴√</div></div>
+		</div>
+	</div>
+	<div id="keys-selected-sin" class="keys-reveal keys-reveal-sin hide">
+		<div class="row simple-keys">
+			<div><div class="key-reveal key-left key-func" data-code="cos">cos</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="tan">tan</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="cot">cot</div></div>
+		</div>
+	</div>
+	<div id="keys-selected-ln" class="keys-reveal keys-reveal-ln hide">
+		<div class="row simple-keys">
+			<div><div class="key-reveal key-left key-func" data-code="log2(">log₂</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="log10(">log₁₀</div></div>
+		</div>
+	</div>
+	<div id="keys-selected-func-sin" class="keys-reveal keys-reveal-func-sin hide">
+		<div class="row simple-keys">
+			<div><div class="key-reveal key-left key-func" data-code="asin">asin</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="sinh">sinh</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="asinh">asinh</div></div>
+		</div>
+	</div>
+	<div id="keys-selected-func-cos" class="keys-reveal keys-reveal-func-cos hide">
+		<div class="row simple-keys">
+			<div><div class="key-reveal key-left key-func" data-code="acos">acos</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="cosh">cosh</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="acosh">acosh</div></div>
+		</div>
+	</div>
+	<div id="keys-selected-func-tan" class="keys-reveal keys-reveal-func-tan hide">
+		<div class="row simple-keys">
+			<div><div class="key-reveal key-left key-func" data-code="atan">atan</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="tanh">tanh</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="atanh">atanh</div></div>
+		</div>
+	</div>
+	<div id="keys-selected-func-cot" class="keys-reveal keys-reveal-func-cot hide">
+		<div class="row simple-keys">
+			<div><div class="key-reveal key-left key-func" data-code="acot">acot</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="coth">coth</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="acoth">acoth</div></div>
+		</div>
+	</div>
+	<div id="keys-selected-func-sec" class="keys-reveal keys-reveal-func-sec hide">
+		<div class="row simple-keys">
+			<div><div class="key-reveal key-left key-func" data-code="asec">asec</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="sech">sech</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="asech">asech</div></div>
+		</div>
+	</div>
+	<div id="keys-selected-func-csc" class="keys-reveal keys-reveal-func-csc hide">
+		<div class="row simple-keys">
+			<div><div class="key-reveal key-left key-func" data-code="acsc">acsc</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="csch">csch</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="acsch">acsch</div></div>
+		</div>
+	</div>
+	<div id="keys-selected-func-sqrt" class="keys-reveal keys-reveal-func-sqrt hide">
+		<div class="row simple-keys">
+			<div><div class="key-reveal key-left key-func" data-code="sqrt3(">sqrt3</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="sqrt4(">sqrt4</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="sqrt5(">sqrt5</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="sqrt6(">sqrt6</div></div>
+		</div>
+	</div>
+	<div id="keys-selected-func-ln" class="keys-reveal keys-reveal-func-ln hide">
+		<div class="row simple-keys">
+			<div><div class="key-reveal key-left key-func" data-code="log2(">log₂</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="log3(">log₃</div></div>
+			<div><div class="key-reveal key-left key-func" data-code="log10(">log₁₀</div></div>
+		</div>
+	</div>
+  </div>
+  <div id="keyboard" class="hide">
+  	<div class="relative">
+  		<div class="keyboard-move-container">
+  			<div id="keyboard-move"></div>
+  		</div>
+  		<div id="keys-numbers">
+			<div class="row simple-keys">
+				<div><div id="key-select-var" class="key-tip key-tip-y key-left key-var" data-code="x">x</div></div>
+				<div><div class="key-left" data-code="(">(</div></div>
+				<div><div class="key-left" data-code=")">)</div></div>
+				<div><div class="key-number" data-code="7">7</div></div>
+				<div><div class="key-number" data-code="8">8</div></div>
+				<div><div class="key-number" data-code="9">9</div></div>
+				<div><div class="key-op" data-code="/">÷</div></div>
+			</div>
+			<div class="row simple-keys">
+				<div><div id="key-select-pow" class="key-tip key-tip-n key-left" data-code="²">²</div></div>
+				<div><div id="key-select-sqrt" class="key-tip key-tip-sqrt key-left" data-code="sqrt">√</div></div>
+				<div><div class="key-left"></div></div>
+				<div><div class="key-number" data-code="4">4</div></div>
+				<div><div class="key-number" data-code="5">5</div></div>
+				<div><div class="key-number" data-code="6">6</div></div>
+				<div><div class="key-op" data-code="*">×</div></div>
+			</div>
+			<div class="row simple-keys">
+				<div><div class="key-left key-var" data-code="e">e</div></div>
+				<div><div class="key-left key-var" data-code="pi">π</div></div>
+				<div><div class="key-left"></div></div>
+				<div><div class="key-number" data-code="1">1</div></div>
+				<div><div class="key-number" data-code="2">2</div></div>
+				<div><div class="key-number" data-code="3">3</div></div>
+				<div><div class="key-op" data-code="+">+</div></div>
+			</div>
+			<div class="row simple-keys">
+				<div><div id="key-select-sin" class="key-tip key-tip-sin key-left key-func" data-code="sin">sin</div></div>
+				<div><div id="key-select-ln" class="key-tip key-tip-ln key-left key-func" data-code="ln">ln</div></div>
+				<div><div class="key-left key-var"></div></div>
+				<div><div class="key-number" data-code=".">.</div></div>
+				<div><div class="key-number" data-code="0">0</div></div>
+				<div><div class="key-op" data-code="^">^</div></div>
+				<div><div class="key-op" data-code="-">−</div></div>
+			</div>
+			<div class="row manage-keys">
+				<div><div class="keys-to-abc">abc</div></div>
+				<div><div class="keys-to-funcs">f(x)</div></div>
+				<div><div class="keys-to-numbers hide">¹²+−</div></div>
+				<div><div class="key-remove">⌫</div></div>
+				<div><div class="key-solve">=</div></div>
+			</div>
+		</div>
+		<div id="keys-funcs" class="hide">
+			<div class="row simple-keys">
+				<div><div id="key-select-func-sin" class="key-tip key-tip-many key-left key-left key-func" data-code="sin">sin</div></div>
+				<div><div id="key-select-func-cos" class="key-tip key-tip-many key-left key-func" data-code="cos">cos</div></div>
+				<div><div id="key-select-func-tan" class="key-tip key-tip-many key-left key-func" data-code="tan">tan</div></div>
+				<div><div id="key-select-func-cot" class="key-tip key-tip-many key-left key-func" data-code="cot">cot</div></div>
+				<div><div class="key-left key-func" data-code="pi">𝜋</div></div>
+				<div><div class="key-left key-func" data-code="alpha">𝛼</div></div>
+				<div><div class="key-left key-func" data-code="beta">𝛽</div></div>
+			</div>
+			<div class="row simple-keys">
+				<div><div id="key-select-func-sec" class="key-tip key-tip-many key-left key-func" data-code="sec">sec</div></div>
+				<div><div id="key-select-func-csc" class="key-tip key-tip-many key-left key-func" data-code="csc">csc</div></div>
+				<div><div class="key-left key-func"></div></div>
+				<div><div class="key-left key-func"></div></div>
+				<div><div class="key-left key-func" data-code="sigma">𝜎</div></div>
+				<div><div class="key-left key-func" data-code="gamma">𝛾</div></div>
+				<div><div class="key-left key-func" data-code="nu">𝜈</div></div>
+			</div>
+			<div class="row simple-keys">
+				<div><div id="key-select-func-sqrt" class="key-tip key-tip-many key-left key-func" data-code="sqrt">sqrt</div></div>
+				<div><div id="key-select-func-pow" class="key-left key-func" data-code="pow(">pow</div></div>
+				<div><div id="key-select-func-exp" class="key-left key-func" data-code="exp">exp</div></div>
+				<div><div id="key-select-func-abs" class="key-left key-func" data-code="abs">abs</div></div>
+				<div><div class="key-left key-func" data-code="mu">𝜇</div></div>
+				<div><div class="key-left key-func" data-code="phi">𝜙</div></div>
+				<div><div class="key-left key-func" data-code="psi">𝜓</div></div>
+			</div>
+			<div class="row simple-keys">
+				<div><div id="key-select-func-ln" class="key-tip key-tip-many key-left key-func" data-code="ln">ln</div></div>
+				<div><div class="key-left key-func"></div></div>
+				<div><div class="key-left key-func"></div></div>
+				<div><div class="key-left key-func" data-code=",">,</div></div>
+				<div><div class="key-left key-func" data-code="tau">𝜏</div></div>
+				<div><div class="key-left key-func" data-code="eta">𝜂</div></div>
+				<div><div class="key-left key-func" data-code="rho">𝜌</div></div>
+			</div>
+			<div class="row manage-keys">
+				<div><div class="keys-to-abc">abc</div></div>
+				<div><div class="keys-to-funcs hide">f(x)</div></div>
+				<div><div class="keys-to-numbers">¹²+−</div></div>
+				<div><div class="key-remove">⌫</div></div>
+				<div><div class="key-solve">=</div></div>
+			</div>
+		</div>
+		<div id="keys-board" class="hide">
+			<div class="row-mobile mobile-keys">
+				<div><div>q</div></div>
+				<div><div>w</div></div>
+				<div><div>e</div></div>
+				<div><div>r</div></div>
+				<div><div>t</div></div>
+				<div><div>y</div></div>
+				<div><div>u</div></div>
+				<div><div>i</div></div>
+				<div><div>o</div></div>
+				<div><div>p</div></div>
+			</div>
+			<div class="row-mobile mobile-keys">
+				<div><div>a</div></div>
+				<div><div>s</div></div>
+				<div><div>d</div></div>
+				<div><div>f</div></div>
+				<div><div>g</div></div>
+				<div><div>h</div></div>
+				<div><div>j</div></div>
+				<div><div>k</div></div>
+				<div><div>l</div></div>
+			</div>
+			<div class="row-mobile mobile-keys">
+				<div><div>z</div></div>
+				<div><div>x</div></div>
+				<div><div>c</div></div>
+				<div><div>v</div></div>
+				<div><div>b</div></div>
+				<div><div>n</div></div>
+				<div><div>m</div></div>
+			</div>
+			<div class="row-mobile row-mobile-left mobile-keys">
+				<div><div class="key-shift">⮉</div></div>
+				<div><div class="key-space"></div></div>
+			</div>
+			<div class="row manage-keys">
+				<div><div class="keys-to-abc hide">abc</div></div>
+				<div><div class="keys-to-funcs">f(x)</div></div>
+				<div><div class="keys-to-numbers">¹²+−</div></div>
+				<div><div class="key-remove">⌫</div></div>
+				<div><div class="key-solve">=</div></div>
+			</div>
+		</div>
+  	</div>
+  </div>
+  <div id="keyboard-button"></div>
+ </div>
+<script async src="https://mathdf.com/script-keyboard.js?1652118728" onload="document.getElementById('keyboard-container').classList.remove('hide')"></script>
+  <script>if(adBlockEnabled){document.getElementById("link-toupdate").href+=decodeURIComponent(window.location.hash);}var expandtable=false;window.addEventListener("hashchange",function(){""!==window.location.hash&&window.location.reload(!0)});if(""!==window.location.hash){var getHash=decodeURIComponent(window.location.hash).slice(1);getHash=getHash.replace(/(?:^|&)expr=(.+?)(&|$)/,function(b,a){document.querySelector("#input-expression").value=a;return""});getHash=getHash.replace(/(?:^|&)arg=([a-df-hj-z])(&|$)/,function(b,a){var c=document.querySelector("#calc-param option");c.innerHTML=a;c.value=a;return"&"});getHash=getHash.replace(/(?:^|&)b=(.+?)(&|$)/,function(b,a){document.querySelector("#bottom-limit").value=a;return"&"});getHash=getHash.replace(/(?:^|&)t=(.+?)(&|$)/,function(b,a){document.querySelector("#top-limit").value=a;return"&"});getHash.replace(/(?:^|&)et=(1)(&|$)/,function(b,a){"1"===a&&(expandtable=!0);return"&"});window.location=window.location.origin+window.location.pathname+"#"}document.querySelector("#input-expression").focus();var defaultLang="en",lang="cn",subLang="cn",isCookieAuth=false,subsIndex=0,subsAuth=["基础","溢价"],exprtexts={"cn": ["XGxu","XHNpbg==","XGNvcw==","XHRhbg==","XGNvdA==","XGFyY3Rhbg==","XGFyY3Npbg==","XGFyY2Nvcw==","XG9wZXJhdG9ybmFtZXthcmNjb3R9","XHNpbmg=","XGNvc2g=","XHRhbmg=","XGNvdGg=","XG9wZXJhdG9ybmFtZXtzZWNofQ==","XG9wZXJhdG9ybmFtZXtjc2NofQ==","XG9wZXJhdG9ybmFtZXthcnNpbmh9","XG9wZXJhdG9ybmFtZXthcmNvc2h9","XG9wZXJhdG9ybmFtZXthcnRhbmh9","XG9wZXJhdG9ybmFtZXthcmNvdGh9","XG9wZXJhdG9ybmFtZXthcmNzZWN9","XG9wZXJhdG9ybmFtZXthcmNjc2N9","XG9wZXJhdG9ybmFtZXthcnNlY2h9","XG9wZXJhdG9ybmFtZXthcmNzY2h9","XHNlYw==","XGNzYw=="]},inttexts={"cn": ["56ev5YiG6KGo","5Zyo","5Zyo","5LuO5bi45pWw56ev5YiG","5oyH5pWw56ev5YiG","5a+55pWw56ev5YiG5Ye95pWw","5q2j5bym56ev5YiG","5L2Z5bym56ev5YiG","5LiJ6KeS","5Y+M5puy","5LiJ6KeS","5b6u5YiG5LqM6aG55byP","57q\/5oCn5YiG5pWw55CG5oCn","5qyn5ouJ","5b6u5YiG","5ZGo5pyf5oCn55qE","5Zug5byP5YiG6Kej","5YiG6Kej5YiG5q+N","6Zmk5rOV","5LmY5rOV","5Lul","6L2s5Z6L","5L2\/55So5YWs5byP","5YiG57uE","5a+55LqO5YiG5pWw5LmL5ZKM","5bGV5byA5ous5Y+3","5Y+W5Ye65YWs5Zug5a2Q","6ZmN5Yaq5YWs5byP","6ZmN5Yaq5YWs5byP","57q\/5oCn","5YiG57uE","5b6F5a6a57O75pWw5rOV","55u4562J5bmC55qE57O75pWw","5Luj5o2i","5YiG6YOo56mN5YiG5rOV","5ZGo5pyf5oCn6KGo6L6+","5YeP5bCR6KKr56ev5Ye95pWw55qE5bmC55qE5YWs5byP","5om+5Yiw57O75pWw77yI5b6u5YiG77yJ","5bmC5Ye95pWw56ev5YiG","5Y+N5ZCR5pu\/5o2i","5rqQ56ev5YiG","5YiG5q2l6Kej5Yaz5pa55qGI","5rKh5pyJ6Laz5aSf55qE5py65Lya5om+5Yiw57uZ5a6a56ev5YiG55qE5Y+N5a+85pWw","5oiW5LiN5a2Y5Zyo5Z+65pys5Yqf6IO955qE6Kej5Yaz5pa55qGI","5Z+65pys5Yqf6IO95Lit55qE5Y+N5a+85LiN5a2Y5Zyo","5L2Z5bym5ZKM5LiO5beu5YWs5byP","5q2j5bym5ZKM5LiO5beu5YWs5byP","56mN5YyW5ZKM5beu","56mN5YyW5ZKM5beu","56mN5YyW5ZKM5beu","5pyJ5LiA5Liq5YWx5ZCM55qE5YiG5q+N","5pa55qC55Y+Y5o2i","5Z+65pys6KGo6L6+55qE5YyW","5ZCI5bm25qC56KGo6L6+5byP","55S15rqQ6L2s5o2i","5LqM5YCN6KeS5YWs5byP","5LqM5YCN6KeS5YWs5byP","5L2\/55So5q+V6L6+5ZOl5ouJ5pav5LiJ6KeS6Lqr5Lu9","5bqU55So5LiJ6KeS5YWs5byP","6LaF6L+H5LqG5pyA5aSn6K6h566X5pe26Ze0","5oyH5pWw5Ye95pWw55qE56ev5YiG","5Z+65pys5YWs5byP","5YeP5bCR5YiG5pWw","5LqM5YCN6KeS5YWs5byP","5LqM5YCN6KeS5YWs5byP","6YCa6L+H5q+V6L6+5ZOl5ouJ5pav5LiJ6KeS6Lqr5Lu9","55CG5oCn5Y+M5puy57q\/","5Y+M5puy5Ye95pWw5oGS562J5byP","56mN5YyW5ZKM5beu","56mN5YyW5ZKM5beu","56mN5YyW5ZKM5beu","5Y+M5puy5L2Z5bym5ZKM5LiO5beu5YWs5byP","5Y+M5puy5q2j5bym5ZKM5LiO5beu5YWs5byP","5Y+M6KeS5Y+M5puy5q2j5bym5bmz5pa5","6YWN5pa55rOV","6Jma5p6E5Y2V5L2N55qE5YiG6YWN","5Y+M5q2j5bym5bmz5pa5","566A5YyW","5Y+W5Ye65LmY5pWw","5bqm6L2s5o2i","5L2\/55So5YWs5byP","5YWp6KeS5ZKM5beu","5LiJ6KeS5YWs5byP","6YOo5YiG5YiG6Kej","5Ly9546b5Yqf6IO95LiN5a6M5pW0","56ev55qE5a+55pWw","5Liq5q2j5pWw5bmC55qE5a+55pWw","5a+55pWw","6K6h566X5ZGo5pyf57O75pWw","6K6h566X55qE5Ye95pWw5ZGo5pyf","6I+y5raF6ICz56ev5YiG","5Y2V5Ye75Lul5a+86Iiq","5a+85Ye657uT5p6c","5LuO6Zu25byA5aeL56ev5YiG","5Y+M5puy5q2j5bym56ev5YiG","5Y+M5puy5L2Z5bym56ev5YiG","6KKr6Zu26Zmk","5aWl5pav54m5572X5qC85ouJ6Iyo5Z+65pa55rOV","5LiH6IO95YWs5byP","5pW05pWw","5YiG5q+N","5YiG5q+N55qE5pyA5bCP5YWs5YCN5pWw","5qyh5bmC","6auY5pav6K+v5beu5Ye95pWw","6Jma5YGH6ZSZ6K+v5Yqf6IO9","6K6h566X","5pyJ5YWz6K+m57uG5L+h5oGv","5Ye95pWw5Zyo5Yy66Ze05LiK5piv6L+e57ut55qE","5qC55o2u54mb6aG\/LeiOseW4g+WwvOWFueWFrOW8jw==","55So5LqO","57qm5p2f","56ev5YiG5Y+R5pWj","56ev5YiG5LiN5b2T","5ryC5Lqu55qE5Li75YC8","6Ze06ZqU6Ze06ZqU","6Ze06ZqU5beu6Led","6L+e57ut6Ze06ZqU","5YC8","5aWH5Yqf6IO9","5YW35pyJ5a+556ew5p6B6ZmQLeetieS6jumbtg==","56ys5LiA57G7","5pW05ZCI55qE5p6B6ZmQ5piv5LiA6Ie055qE","56ev5YiG562J5LqO6Zu2","5Y+N5a+85pWw6ZmQ5Yi2","55Sx5LqO6ZuG5oiQ6ZmQ5Yi26ICM5a+86Ie055qE6ZSZ6K+v","6KKr6Zu26Zmk","5ZGo5pyf5Ye95pWw","5bim5pe25pyf","5peg5rOV6K6h566X","5Zyo5aSN5p2C5bmz6Z2i5LiK6ZuG5oiQ","5LiN5a6M5YWo5pSv5oyB","55Sa6Iez5Yqf6IO9","5YW35pyJ5a+556ew6ZmQ5Yi2","5Zyo5LiA5Y2K6Ze06ZqU5YaF5bCG56ev5YiG5Yqg5YCN","5Y+N5bCO5Ye95pW4","6K6h566X57uT5p6c55qE5a+85pWw","5a6a5LmJ5riF5Y2V","6Ieq54S25bCN5pW4","5LiJ6KeS5Ye95pWw","5LiJ6KeS5Ye95pWw","5LiJ6KeS5Ye95pWw","5LiJ6KeS5Ye95pWw","5Y+N5LiJ6KeS5Ye95pWw","5Y+N5LiJ6KeS5Ye95pWw","5Y+N5LiJ6KeS5Ye95pWw","5Y+N5LiJ6KeS5Ye95pWw","5Y+M5puy5Ye95pWw","5Y+M5puy5Ye95pWw","5Y+M5puy5Ye95pWw","5Y+M5puy5Ye95pWw","5Y+M5puy5Ye95pWw","5Y+M5puy5Ye95pWw","5Y+N5Y+M5puy5Ye95pWw","5Y+N5Y+M5puy5Ye95pWw","5Y+N5Y+M5puy5Ye95pWw","5Y+N5Y+M5puy5Ye95pWw","5Y+N5LiJ6KeS5Ye95pWw","5Y+N5LiJ6KeS5Ye95pWw","5Y+M5puy5Ye95pWw","5Y+M5puy5Ye95pWw","5LiJ6KeS5Ye95pWw","5LiJ6KeS5Ye95pWw","56ym5Y+35Ye95pWw","5b6u5YiG","5LiN5a6M5YWozpPlh73mlbg=","5oyH5pWw56ev5YiG","5a+55pWw56ev5YiG","5LiJ6KeS56ev5YiG","5LiJ6KeS56ev5YiG","5LiJ6KeS56ev5YiG","5LiJ6KeS56ev5YiG","5aSa6YeN5a+55pWw5Ye95pWw","6I+y5raF6ICz56mN5YiG","6I+y5raF6ICz56mN5YiG","6K+v5beu5Ye95pWw","6K+v5beu5Ye95pWw","56mN5YiG5bi45pW4","5ZyT5ZGo546H","6Jmb5pW45Zau5L2N","RV8o5pWw5a2m5bi45pWwKQ==","5L2\/55So5qyn5ouJ5YWs5byP","57q\/5oCn5pu\/5o2i","5LiJ6KeS5oGS562J5byP","5oyH5pWw5Ye95pWw","5Y+m5LiA56eN5pa55rOV","55So5a+55pWw5Y+Y5o2i","5pu\/5o2i","5LiL5beu6YCf","5qih5Z2X6L2s5o2i","5Ymy57q\/","5L2Z5Ymy","5Yqf6IO95Y+Y5YyW","6Zmk5rOV","55So5oyH5pWw5YyW566A","5Zyo5b6u5YiG5ZKM6KGo5LiL","5LiL5beu6YCf5o2i5Luj","55So5oyH5pWw5YyW566A","5YWx6L2t5LmY5rOV","5LiK5qGM","5aKe5Yqg5p2D5Yqb","5a+55pWw5oC75ZKM","5YiG5pWw5YiG6Kej","5YeP5bCR5LqG","5qyn5ouJ5Luj5o2i","5Zug5byP5YiG6Kej","5omp5aSn5oiW5pu\/5Luj","5YiG6Kej","55u05o6l5rOV44CC5bmz5pa55qC555qE5YiG6Kej","6L2s5o2i5YiG5q+N","","5LiJ6KeS5Y+Y5o2i","5q2j5L2Z5bym55qE5LmY5rOV","5Y+M5puy5q2j5L2Z5bym55qE5LmY5rOV","","5re75Yqg6KeS5bqm55qE5YWs5byP","","5LqM5YCN6KeS5YWs5byP","5rGC5ZKM5YWs5byP","5LiJ6KeS5pu\/5o2i","5Y+M5puy57q\/5pu\/5Luj","5YiH57q\/5YWs5byP","6L2s5o2i5Li65pu\/5Luj","6L2s5o2i5Li65YiH57q\/","5LiJ6KeS5Y+Y5o2i","5Yiw5L2Z5bym","5q2j5bym","5Y+M5puy5L2Z5bym","5Y+M5puy5q2j5bym","5a+55pWw","5pu05pS55Yqf6IO9","6L2s5o2i5Li65pu\/5Luj5YiH57q\/","6L2s5o2i5Li65pu\/5Luj5L2Z5YiH","5LiH6IO95LiJ6KeS5Luj5o2i","6L2s5o2i5Li65Y+M5puy5q2j5YiH5Luj5o2i","6L2s5o2i5Li65Y+M5puy5L2Z5YiH5pu\/5Luj","5LiH6IO95Y+M5puy57q\/572u5o2i","5LiJ6YeN6KeS5YWs5byP","55u05o6l5pa55rOV","5LiJ6KeS5pu\/5o2i","5YiG6Kej5oiQ5YiG5pWw","5qyn5ouJ5YWs5byP","5Y+N5LiJ6KeS5Luj5o2i","5YiG5pWw5YeP5bCR","5Y+M5puy57q\/5YWs5byP","6K6h566X5rq25ray","5YeP5bCR5Yiw5LiA5Liq5YWx5ZCM54K5","5aaC5p6c"]},input=document.querySelector("#input-expression"),htmllang="zh",token=encodeURIComponent("2cf1673b42"),translateList={"cn":{"trig":{"0":{"0":{"0":"降幂公式"}},"1":{"0":{"0":"降幂公式"}},"2":{"0":{"0":"降幂公式"}},"8":{"0":{"0":"倍角公式"}},"16":{"0":{"1":"降幂公式"}},"17":{"0":{"1":"降幂公式"}},"18":{"0":{"1":"基本公式"}},"21":{"0":{"0":"倍角公式"}},"27":{"0":{"0":"降幂公式"}},"28":{"0":{"0":"降冪公式"}},"49":{"0":{"1":"基本公式"}}},"initint":{"1":"计算结果"},"combo":{"2":{"0":{"0":"乘以","1":""}},"9":{"0":{"0":"乘以","1":""}},"18":{"0":{"0":"幂指数定律"}},"26":{"0":{"0":"乘以","1":""}},"27":{"0":{"0":"乘以","1":""}},"33":{"0":{"0":"乘以","1":""}},"40":{"0":{"0":"乘以","1":""}},"49":{"0":{"0":"积的幂"}}},"chgtype":{"8":{"0":"双曲"}},"undef4":{"0":"部分分式分解"},"initintdef":{"1":"计算结果"},"defs":{"0":{"0":"函数值"},"4":{"0":"反常积分"},"6":{"0":"偶函数"}},"newton0":{"3":"反导函数"},"constraint":{"0":"约束条件"},"calcindex":{"0":"计算"},"export":{"0":"计算结果的 LaTeX 代码"},"stepsolutioncalc":{"0":"详细解题过程"}}};input.selectionStart=input.value.length;if(!isMobile&&adBlockEnabled!=1&&document.documentElement.clientWidth>408){document.body.style.minWidth=document.documentElement.clientWidth+"px"};</script>
+  <script src="https://mathdf.com/script-plot.js?1663219492"></script>
+  <script src="https://mathdf.com/int/script-int.js?1672679808"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.20/katex.min.css">
+ </body>
+</html>
