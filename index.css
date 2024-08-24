@@ -1,0 +1,356 @@
+@font-face {
+    font-family: ChFont;
+    src: url(WDKT.woff);
+    /*Supported: Chinese*/
+}
+
+@font-face {
+    font-family: EnFont;
+    src: url(LSANS.TTF);
+    /*Supported: English*/
+}
+
+.strong {
+    color: #000000;
+    font-size: 120%;
+    text-shadow: 2px 2px 2px #FF000080;
+    animation-name: titlegrad1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: EnFont, ChFont;
+    text-align: center;
+    text-shadow: 5px 5px 5px #FF0000;
+    animation-name: titlegrad1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: EnFont, ChFont;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: EnFont, ChFont;
+    text-align: center;
+}
+
+h4 {
+    font-size: 24px;
+    font-family: EnFont, ChFont;
+    text-align: left;
+}
+
+h5 {
+    font-size: 21px;
+    font-family: EnFont, ChFont;
+    text-align: left;
+}
+
+h6 {
+    font-size: 18px;
+    font-family: EnFont, ChFont;
+    text-align: left;
+}
+
+p {
+    position: relative;
+    font-size: 18px;
+    font-family: EnFont, ChFont
+}
+
+x {
+    position: relative;
+    font-size: 18px;
+    font-family: EnFont, ChFont
+}
+
+.studioname {
+    font-family: EnFont, ChFont;
+    text-align: center;
+}
+
+.news {
+    font-family: EnFont, ChFont;
+    text-align: center;
+}
+
+.app {
+    font-family: EnFont, ChFont;
+    text-align: center;
+}
+
+.apps {
+    font-family: EnFont, ChFont;
+}
+
+.discryption {
+    font-family: EnFont, ChFont;
+    text-align: center;
+}
+
+blockquote{
+    width:384px;
+    margin: 0 auto;
+    /*margin-left: 32px;*/
+    border-left-width:10px;
+    border-left-color: #e0e0e0;
+    border-left-style:solid;
+    border-right-width:10px;
+    border-right-color: #e0e0e0;
+    border-right-style:solid;
+    /*text-align: left;*/
+}
+
+a {
+    color: #66ccff;
+}
+
+a:visited {
+    color: #336680;
+}
+
+a:hover {
+    color: #88ffff;
+}
+
+.footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 75px;
+    background-color: #eeeeee80;
+    z-index: 9999;
+}
+
+.c-text-hot {
+    background-color: #FF00FF;
+}
+
+.c-text-new {
+    background-color: #DC143C;
+}
+
+.c-text-download {
+    background-color: #32CD32;
+    display: inline-block;
+    padding: 0 3px;
+    text-align: center;
+    vertical-align: middle;
+    font-style: normal;
+    color: #fff;
+    overflow: hidden;
+    line-height: 30px;
+    height: 30px;
+    font-size: 24px;
+    border-radius: 4px;
+    font-weight: 200;
+}
+
+.c-text {
+    display: inline-block;
+    padding: 0 2px;
+    text-align: center;
+    vertical-align: middle;
+    font-style: normal;
+    color: #fff;
+    overflow: hidden;
+    line-height: 16px;
+    height: 16px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: 200;
+}
+
+.opr-toplist1-label_3Mevn {
+    margin-left: 6px;
+}
+
+.crj_btn_box {
+    padding-right: 0px;
+}
+
+div {
+    font-size: 18px;
+    font-family: EnFont, ChFont;
+    display: block;
+}
+
+.pc_app_btn {
+    width: 180px;
+    height: 50px;
+    background: #24CD7750;
+    font-family: ChFont;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    float: right;
+    display: block;
+}
+
+.pc_app_btn i {
+    font-family: ChFont;
+    display: block;
+}
+
+:root {
+    --font-title: 18px;
+    --grad-start: DimGray;
+    --grad-end: yellow;
+}
+
+body {
+    font-size: 18px;
+    font-family: EnFont, ChFont;
+    height: 100vh;
+    padding: 20px;
+    background: -webkit-linear-gradient(315deg, var(--grad-start), var(--grad-end));
+    background: linear-gradient(135deg, var(--grad-start), var(--grad-end));
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+
+p::before,p::after {
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 12px;
+    color: #fff;
+}
+
+p::before {
+    content: attr(data-gradStart);
+    bottom: 100%;
+}
+
+
+
+p::after {
+    content: attr(data-gradEnd);
+    top: 100%;
+}
+
+.channel {
+    height: 36px;
+    text-align: center;
+    padding: 0 15px;
+    display: block;
+    line-height: 36px;
+    background: #1f78df50;
+    border-radius: 5px;
+    float: none;
+    margin: 20px auto;
+    width: 80px;
+}
+
+@keyframes titlegrad1 {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+/*
+@keyframes backgrad1 {
+    0% {
+        background-position-x: 0px;
+    }
+    100% {
+        background-position-x: calc(100%);
+    }
+}*/
+
+.redBadge {
+    display: inline-block;
+    border-width: 2px 6px;
+    border-color: #c0000080 #c00000c0;
+    border-style: solid;
+    border-radius: 4px 8px;
+    width: 32px;
+    text-align: center middle;
+    background-color: #ff0000c0;
+    padding: 2px;
+    margin: 6px;
+}
+
+.greenBadge {
+    display: inline-block;
+    border-width: 2px 6px;
+    border-color: #00c02080 #00c020c0;
+    border-style: solid;
+    border-radius: 4px 8px;
+    width: 32px;
+    text-align: center middle;
+    background-color: #20ff40ff;
+    padding: 2px;
+    margin: 6px;
+}
+
+.blueBadge {
+    display: inline-block;
+    border-width: 2px 6px;
+    border-color: #00c0ff80 #00c0ffc0;
+    border-style: solid;
+    border-radius: 4px 8px;
+    width: 32px;
+    text-align: center middle;
+    background-color: #20ffffff;
+    padding: 2px;
+    margin: 6px;
+}
+
+.yellowBadge {
+    display: inline-block;
+    border-width: 2px 6px;
+    border-color: #ffff0080 #ffff00c0;
+    border-style: solid;
+    border-radius: 4px 8px;
+    width: 32px;
+    text-align: center middle;
+    background-color: #ffff20ff;
+    padding: 2px;
+    margin: 6px;
+}
+
+.grayBadge {
+    display: inline-block;
+    border-width: 2px 6px;
+    border-color: #80808080 #606060c0;
+    border-style: solid;
+    border-radius: 4px 8px;
+    width: 32px;
+    text-align: center middle;
+    background-color: #c0c0c0ff;
+    padding: 2px;
+    margin: 6px;
+}
+
+.button.download {
+    display: inline-block;
+    border-style: hidden;
+    border-radius: 12px 12px;
+    width: 150px;
+    font-size: 150%;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    background-image: linear-gradient(45deg, hsl(0, 100%, 50%) 0%, hsl(30, 100%, 50%) 100%);
+    padding: 2px;
+    margin: 6px;
+}
